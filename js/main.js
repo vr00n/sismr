@@ -100,6 +100,41 @@
     });
   }
 
+  // --- Gallery lightbox ---
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightboxImg');
+  var lightboxClose = lightbox ? lightbox.querySelector('.lightbox-close') : null;
+
+  document.querySelectorAll('.gallery-item img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      if (lightbox && lightboxImg) {
+        lightboxImg.src = this.src;
+        lightboxImg.alt = this.alt;
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    });
+  });
+
+  function closeLightbox() {
+    if (lightbox) {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  }
+
+  if (lightbox) {
+    lightbox.addEventListener('click', function (e) {
+      if (e.target === lightbox || e.target === lightboxClose) {
+        closeLightbox();
+      }
+    });
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+
   // --- Active nav link highlighting ---
   var sections = document.querySelectorAll('section[id]');
 
