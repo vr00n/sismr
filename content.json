@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "badge": "Est. 1956 \u2022 Staten Island, NY",
+    "title": "Staten Island Society of",
+    "titleHighlight": "Model Railroaders",
+    "subtitle": "Building Community, One Track at a Time",
+    "description": "For nearly 70 years, we\u2019ve brought together hobbyists of all ages to build, operate, and share the art of model railroading. Whether you\u2019re a seasoned modeler or just curious, there\u2019s a place for you on our layout.",
+    "heroImage": "images/417851954_873120321179165_7312965204907357452_n.jpg",
+    "heroImageAlt": "Staten Island #482 HO-scale locomotive model on detailed track with scenery",
+    "stats": [
+      { "number": "1956", "label": "Founded" },
+      { "number": "28+", "label": "Members" },
+      { "number": "HO", "label": "Scale (1:87)" }
+    ]
+  },
+  "about": {
+    "title": "A Staten Island Tradition Since 1956",
+    "lead": "The Staten Island Society of Model Railroaders, Inc. is one of Staten Island\u2019s longest-standing and most beloved hobby clubs.",
+    "paragraphs": [
+      "First chartered in 1956, our club has called several Staten Island locations home \u2014 from our origins in <strong>Pleasant Plains</strong>, to <strong>Historic Richmond Town</strong>, to over a decade at <strong>Sea View Hospital Rehabilitation Center</strong>.",
+      "Our members combine craft, imagination, and engineering to recreate miniature worlds showcasing models of actual American trains. Using the popular <strong>HO-scale (1:87 ratio)</strong>, each member builds their own module \u2014 a 2\u00d74-foot section of railroad \u2014 that connects with others to form sprawling, detailed layouts."
+    ],
+    "quote": "\u201cThis is a hobby that lends itself to always being worked on. You can always add to it or subtract as you get new ideas and more products come on the market.\u201d",
+    "quoteCite": "\u2014 Tom Nolan, Past President",
+    "timeline": [
+      { "year": "1956", "title": "Club Founded", "text": "Chartered in Pleasant Plains, Staten Island, bringing together model railroad enthusiasts." },
+      { "year": "1980s", "title": "Richmond Town Era", "text": "Relocated to Historic Richmond Town, growing the club and its community presence." },
+      { "year": "2000s", "title": "Sea View Hospital", "text": "Moved to the Staff House at Sea View, running monthly shows for residents and the community." },
+      { "year": "2022", "title": "Looking for a New Home", "text": "After building renovations at Sea View, the club seeks a new permanent meeting space." },
+      { "year": "Today", "title": "Still Chugging Along", "text": "28+ members strong and actively meeting, doing shows, and welcoming newcomers.", "active": true }
+    ]
+  },
+  "activities": {
+    "title": "Something for Everyone",
+    "subtitle": "Model railroading is more than a hobby \u2014 it\u2019s art, engineering, history, and community rolled into one.",
+    "cards": [
+      { "title": "Build & Operate Layouts", "text": "Members build individual modules (2\u00d74 ft, HO-scale) that connect to form massive, detailed railroad layouts with lifelike scenery, bridges, towns, and rolling stock." },
+      { "title": "Community Shows", "text": "We set up free model railroad displays at schools, churches, and cultural institutions across Staten Island \u2014 sharing our passion and bringing smiles to kids and families." },
+      { "title": "Holiday Train Shows", "text": "Our annual Holiday Train Show is a beloved Staten Island tradition, drawing families from across the borough to marvel at miniature worlds in motion." },
+      { "title": "Buy, Sell & Trade", "text": "Members participate in buy-and-sell events across the tri-state area, finding rare pieces and sharing treasures with fellow enthusiasts in New Jersey and beyond." },
+      { "title": "Workshop & Learning", "text": "From beginners running their first set to experts building trains from scratch, we share skills in scenery, wiring, weathering, and scratch-building." },
+      { "title": "Fellowship", "text": "More than trains \u2014 it\u2019s the friendships. Members meet regularly to work together, share stories, and enjoy a creative hobby that spans generations." }
+    ]
+  },
+  "news": {
+    "title": "Making Headlines on Staten Island",
+    "articles": [
+      {
+        "source": "Staten Island Advance / SILive.com",
+        "date": "February 2024",
+        "headline": "Bounced from longtime meeting place, model railroad hobbyist club in search of a new home",
+        "url": "https://www.silive.com/news/2024/02/bounced-from-longtime-meeting-place-model-railroad-hobbyist-club-in-search-of-a-new-home.html",
+        "excerpt": "\u201cWe want a place where we could have a workshop, we want a place where we can set up layouts. We were contributing to that environment.\u201d",
+        "tag": "Club News"
+      },
+      {
+        "source": "Staten Island Advance / SILive.com",
+        "date": "February 2012",
+        "headline": "Members of Staten Island Society of Model Railroaders have long and rich history",
+        "url": "https://www.silive.com/westshore/2012/02/members_of_staten_island_socie.html",
+        "excerpt": "\u201cWhen you build something, you learn so much. It\u2019s not just what you\u2019re building, it\u2019s all that goes with it. A diorama has scale, proportion, placement.\u201d",
+        "tag": "Feature Story"
+      },
+      {
+        "source": "Staten Island Advance / SILive.com",
+        "date": "December 2015",
+        "headline": "Model trains on center stage at annual holiday show",
+        "url": "https://www.silive.com/entertainment/2015/12/model_trains_capture_center_st.html",
+        "excerpt": "The annual Holiday Train Show at Clove Lakes, a joint venture with the Richmond County Model Railroad Club, draws families from across the borough.",
+        "tag": "Holiday Show"
+      }
+    ],
+    "featuredQuote": "\u201cAny hobby should be relaxing. It takes a lot of thought to make the modules look simple and make it look realistic. When it\u2019s finished, there\u2019s a great deal of satisfaction.\u201d",
+    "featuredQuoteCite": "\u2014 Ron DeMartini, Past Vice President"
+  },
+  "gallery": {
+    "title": "Miniature Worlds, Major Detail",
+    "subtitle": "From tiny telephone poles to intricate bridges, every module tells a story.",
+    "images": [
+      { "src": "images/512015353_24231363276500372_8984119620590437035_n.jpg", "alt": "SISMR members at a spring community show with the club banner", "caption": "Community Show \u2014 \"Join Us and Enjoy the World's Greatest Hobby\"", "wide": true },
+      { "src": "images/480867375_1130041818820346_5833666097559802619_n.jpg", "alt": "Detailed HO-scale steam locomotive rounding a curve on realistic track with scenery", "caption": "Steam Locomotive on Detailed Layout", "wide": false },
+      { "src": "images/44528255_2089177301145620_8143471053658652672_n.jpg", "alt": "Halloween-themed model train layout with spooky village decorations and glowing lights", "caption": "Halloween Themed Display", "wide": false },
+      { "src": "images/481123242_1138242728000255_7763278115900222893_n.jpg", "alt": "Holiday Train Show with elaborate Christmas village layout", "caption": "Annual Holiday Train Show", "wide": true },
+      { "src": "images/511587884_24225445387092161_7758496169151118054_n.jpg", "alt": "SISMR members operating a holiday train layout with the club sign visible", "caption": "Holiday Show Setup", "wide": false },
+      { "src": "images/72633954_2692234190839925_3237846694787809280_n.jpg", "alt": "Club members gathering for a social dinner at a local Staten Island restaurant", "caption": "Club Social Gathering", "wide": false }
+    ]
+  },
+  "cta": {
+    "title": "We\u2019re Looking for a New Home",
+    "text": "After more than a decade at Sea View Hospital, our club needs a permanent space where we can set up layouts, hold workshops, and welcome the community. If you know of a space on Staten Island, we\u2019d love to hear from you."
+  },
+  "join": {
+    "title": "All Aboard!",
+    "subtitle": "Whether you\u2019ve been collecting trains since childhood or you\u2019re just discovering the hobby, we welcome you."
+  },
+  "contact": {
+    "email": "sismrinc@gmail.com",
+    "phone": "(718) 317-3386",
+    "facebook": "https://www.facebook.com/sitrains",
+    "facebookLabel": "facebook.com/sitrains"
+  }
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SISMR Admin Panel</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Login Screen -->
+    <div class="login-screen" id="loginScreen">
+      <div class="login-card">
+        <div class="login-header">
+          <h1>SISMR Admin</h1>
+          <p>Sign in to manage your website content</p>
+        </div>
+        <form id="loginForm">
+          <div class="field">
+            <label for="token">GitHub Personal Access Token</label>
+            <input type="password" id="token" placeholder="ghp_xxxxxxxxxxxx" required autocomplete="off">
+            <small>Needs <code>repo</code> scope. <a href="https://github.com/settings/tokens/new?scopes=repo&description=SISMR+Admin" target="_blank" rel="noopener">Create one here</a></small>
+          </div>
+          <div class="field">
+            <label for="repo">Repository</label>
+            <input type="text" id="repo" value="vr00n/sismr" required>
+          </div>
+          <button type="submit" class="btn btn-primary" id="loginBtn">Sign In</button>
+          <p class="login-error" id="loginError"></p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Admin Dashboard -->
+    <div class="dashboard" id="dashboard" style="display:none">
+      <header class="admin-header">
+        <div class="admin-header-left">
+          <h1>SISMR Admin</h1>
+          <a href="index.html" target="_blank" class="view-site-link">View Site &rarr;</a>
+        </div>
+        <div class="admin-header-right">
+          <span class="status-badge" id="statusBadge">Saved</span>
+          <button class="btn btn-primary" id="publishBtn" disabled>Publish Changes</button>
+          <button class="btn btn-secondary" id="logoutBtn">Logout</button>
+        </div>
+      </header>
+
+      <nav class="admin-nav">
+        <button class="admin-tab active" data-tab="hero">Hero</button>
+        <button class="admin-tab" data-tab="about">About</button>
+        <button class="admin-tab" data-tab="activities">Activities</button>
+        <button class="admin-tab" data-tab="news">News</button>
+        <button class="admin-tab" data-tab="gallery">Gallery</button>
+        <button class="admin-tab" data-tab="cta">CTA Banner</button>
+        <button class="admin-tab" data-tab="join">Join</button>
+        <button class="admin-tab" data-tab="contact">Contact</button>
+      </nav>
+
+      <main class="admin-main">
+        <!-- Hero Tab -->
+        <section class="tab-panel active" id="panel-hero">
+          <h2>Hero Section</h2>
+          <div class="field">
+            <label>Badge Text</label>
+            <input type="text" data-path="hero.badge">
+          </div>
+          <div class="field">
+            <label>Title (Line 1)</label>
+            <input type="text" data-path="hero.title">
+          </div>
+          <div class="field">
+            <label>Title Highlight (Line 2)</label>
+            <input type="text" data-path="hero.titleHighlight">
+          </div>
+          <div class="field">
+            <label>Subtitle</label>
+            <input type="text" data-path="hero.subtitle">
+          </div>
+          <div class="field">
+            <label>Description</label>
+            <textarea data-path="hero.description" rows="3"></textarea>
+          </div>
+          <div class="field">
+            <label>Hero Image</label>
+            <div class="image-upload" data-path="hero.heroImage">
+              <img class="image-preview" src="" alt="">
+              <div class="image-actions">
+                <input type="file" accept="image/*" class="image-input" style="display:none">
+                <button type="button" class="btn btn-secondary btn-sm upload-btn">Change Image</button>
+              </div>
+            </div>
+          </div>
+          <h3>Stats</h3>
+          <div class="stats-editor" data-array-path="hero.stats">
+          </div>
+        </section>
+
+        <!-- About Tab -->
+        <section class="tab-panel" id="panel-about">
+          <h2>About Section</h2>
+          <div class="field">
+            <label>Section Title</label>
+            <input type="text" data-path="about.title">
+          </div>
+          <div class="field">
+            <label>Lead Paragraph</label>
+            <textarea data-path="about.lead" rows="2"></textarea>
+          </div>
+          <div class="field">
+            <label>Paragraph 1 (supports HTML for bold text)</label>
+            <textarea data-path="about.paragraphs.0" rows="3"></textarea>
+          </div>
+          <div class="field">
+            <label>Paragraph 2</label>
+            <textarea data-path="about.paragraphs.1" rows="3"></textarea>
+          </div>
+          <div class="field">
+            <label>Quote</label>
+            <textarea data-path="about.quote" rows="2"></textarea>
+          </div>
+          <div class="field">
+            <label>Quote Attribution</label>
+            <input type="text" data-path="about.quoteCite">
+          </div>
+          <h3>Timeline</h3>
+          <div class="timeline-editor" data-array-path="about.timeline">
+          </div>
+        </section>
+
+        <!-- Activities Tab -->
+        <section class="tab-panel" id="panel-activities">
+          <h2>Activities Section</h2>
+          <div class="field">
+            <label>Section Title</label>
+            <input type="text" data-path="activities.title">
+          </div>
+          <div class="field">
+            <label>Section Subtitle</label>
+            <textarea data-path="activities.subtitle" rows="2"></textarea>
+          </div>
+          <h3>Activity Cards</h3>
+          <div class="cards-editor" data-array-path="activities.cards">
+          </div>
+        </section>
+
+        <!-- News Tab -->
+        <section class="tab-panel" id="panel-news">
+          <h2>News Section</h2>
+          <div class="field">
+            <label>Section Title</label>
+            <input type="text" data-path="news.title">
+          </div>
+          <h3>Articles</h3>
+          <div class="articles-editor" data-array-path="news.articles">
+          </div>
+          <h3>Featured Quote</h3>
+          <div class="field">
+            <label>Quote Text</label>
+            <textarea data-path="news.featuredQuote" rows="2"></textarea>
+          </div>
+          <div class="field">
+            <label>Quote Attribution</label>
+            <input type="text" data-path="news.featuredQuoteCite">
+          </div>
+        </section>
+
+        <!-- Gallery Tab -->
+        <section class="tab-panel" id="panel-gallery">
+          <h2>Gallery</h2>
+          <div class="field">
+            <label>Section Title</label>
+            <input type="text" data-path="gallery.title">
+          </div>
+          <div class="field">
+            <label>Section Subtitle</label>
+            <input type="text" data-path="gallery.subtitle">
+          </div>
+          <h3>Images</h3>
+          <div class="gallery-editor" id="galleryEditor">
+          </div>
+          <button type="button" class="btn btn-secondary" id="addImageBtn">+ Add Image</button>
+        </section>
+
+        <!-- CTA Tab -->
+        <section class="tab-panel" id="panel-cta">
+          <h2>Call-to-Action Banner</h2>
+          <div class="field">
+            <label>Title</label>
+            <input type="text" data-path="cta.title">
+          </div>
+          <div class="field">
+            <label>Text</label>
+            <textarea data-path="cta.text" rows="3"></textarea>
+          </div>
+        </section>
+
+        <!-- Join Tab -->
+        <section class="tab-panel" id="panel-join">
+          <h2>Join Section</h2>
+          <div class="field">
+            <label>Title</label>
+            <input type="text" data-path="join.title">
+          </div>
+          <div class="field">
+            <label>Subtitle</label>
+            <textarea data-path="join.subtitle" rows="2"></textarea>
+          </div>
+        </section>
+
+        <!-- Contact Tab -->
+        <section class="tab-panel" id="panel-contact">
+          <h2>Contact Info</h2>
+          <div class="field">
+            <label>Email</label>
+            <input type="email" data-path="contact.email">
+          </div>
+          <div class="field">
+            <label>Phone</label>
+            <input type="text" data-path="contact.phone">
+          </div>
+          <div class="field">
+            <label>Facebook URL</label>
+            <input type="url" data-path="contact.facebook">
+          </div>
+          <div class="field">
+            <label>Facebook Display Label</label>
+            <input type="text" data-path="contact.facebookLabel">
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
