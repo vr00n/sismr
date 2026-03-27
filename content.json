@@ -4,7 +4,7 @@
     "title": "Staten Island Society of",
     "titleHighlight": "Model Railroaders",
     "subtitle": "Building Community, One Track at a Time",
-    "description": "For nearly 70 years, we’ve brought together hobbyists of all ages to build, operate, and share the art of model railroading. Whether you’re a seasoned modeler or just curious, there’s a place for you on our layout.",
+    "description": "For nearly 70 years, we've brought together hobbyists of all ages to build, operate, and share the art of model railroading. Whether you're a seasoned modeler or just curious, there's a place for you on our layout.",
     "heroImage": "images/417851954_873120321179165_7312965204907357452_n.jpg",
     "heroImageAlt": "Staten Island #482 HO-scale locomotive model on detailed track with scenery",
     "stats": [
@@ -17,20 +17,20 @@
         "label": "Members"
       },
       {
-        "number": "HO",
-        "label": "Scale (1:87)"
+        "number": "Multi-Scale",
+        "label": "O 1:48 · On30 1:48 · S 1:64 · HO 1:87 · N 1:160"
       }
     ]
   },
   "about": {
     "title": "A Staten Island Tradition Since 1956",
-    "lead": "The Staten Island Society of Model Railroaders, Inc. is one of Staten Island’s longest-standing and most beloved hobby clubs.",
+    "lead": "The Staten Island Society of Model Railroaders, Inc. is a Non-Profit 501(c)(7) organization and one of Staten Island's longest-standing and most beloved hobby clubs.",
     "paragraphs": [
       "First chartered in 1956, our club has called several Staten Island locations home — from our origins in <strong>Pleasant Plains</strong>, to <strong>Historic Richmond Town</strong>, to over a decade at <strong>Sea View Hospital Rehabilitation Center</strong>.",
-      "Our members combine craft, imagination, and engineering to recreate miniature worlds showcasing models of actual American trains. Using the popular <strong>HO-scale (1:87 ratio)</strong>, each member builds their own module — a 2×4-foot section of railroad — that connects with others to form sprawling, detailed layouts."
+      "Our members combine craft, imagination, and engineering to recreate miniature worlds showcasing models of actual American trains. Working in <strong>O Scale (1:48), On30 (1:48), S Scale (1:64), HO (1:87), and N Scale (1:160)</strong>, members build tabletop layouts that connect with others to form sprawling, detailed railroad scenes."
     ],
-    "quote": "“This is a hobby that lends itself to always being worked on. You can always add to it or subtract as you get new ideas and more products come on the market.”",
-    "quoteCite": "— Tom Nolan, Past President",
+    "quote": "\u201cThis is a hobby that lends itself to always being worked on. You can always add to it or subtract as you get new ideas and more products come on the market.\u201d",
+    "quoteCite": "\u2014 Tom Nolan, Past President",
     "timeline": [
       {
         "year": "1956",
@@ -43,14 +43,9 @@
         "text": "Relocated to Historic Richmond Town, growing the club and its community presence."
       },
       {
-        "year": "2000s",
+        "year": "2000s\u2013Present",
         "title": "Sea View Hospital",
         "text": "Moved to the Staff House at Sea View, running monthly shows for residents and the community."
-      },
-      {
-        "year": "2022",
-        "title": "Looking for a New Home",
-        "text": "After building renovations at Sea View, the club seeks a new permanent meeting space."
       },
       {
         "year": "Today",
@@ -62,15 +57,15 @@
   },
   "activities": {
     "title": "Something for Everyone",
-    "subtitle": "Model railroading is more than a hobby — it’s art, engineering, history, and community rolled into one.",
+    "subtitle": "Model railroading is more than a hobby \u2014 it\u2019s art, engineering, history, and community rolled into one.",
     "cards": [
       {
         "title": "Build & Operate Layouts",
-        "text": "Members build individual modules (2×4 ft, HO-scale) that connect to form massive, detailed railroad layouts with lifelike scenery, bridges, towns, and rolling stock."
+        "text": "We presently have tabletop layouts in O Scale combined with an S Scale loop, HO Scale and N Scale that we are building and modifying."
       },
       {
         "title": "Community Shows",
-        "text": "We set up free model railroad displays at schools, churches, and cultural institutions across Staten Island — sharing our passion and bringing smiles to kids and families."
+        "text": "We regularly do train shows for Sea View Hospital residents, Richmond Town\u2019s Yankee Peddler Day, and Snug Harbor Children\u2019s Museum. We also set up free model railroad displays at schools, churches, and cultural institutions across Staten Island."
       },
       {
         "title": "Holiday Train Shows",
@@ -86,7 +81,7 @@
       },
       {
         "title": "Fellowship",
-        "text": "More than trains — it’s the friendships. Members meet regularly to work together, share stories, and enjoy a creative hobby that spans generations."
+        "text": "More than trains \u2014 it\u2019s the friendships. Members meet regularly to work together, share stories, and enjoy a creative hobby that spans generations. We also organize trips to other train club layouts, museums, and train shows."
       }
     ]
   },
@@ -95,18 +90,10 @@
     "articles": [
       {
         "source": "Staten Island Advance / SILive.com",
-        "date": "February 2024",
-        "headline": "Bounced from longtime meeting place, model railroad hobbyist club in search of a new home",
-        "url": "https://www.silive.com/news/2024/02/bounced-from-longtime-meeting-place-model-railroad-hobbyist-club-in-search-of-a-new-home.html",
-        "excerpt": "“We want a place where we could have a workshop, we want a place where we can set up layouts. We were contributing to that environment.”",
-        "tag": "Club News"
-      },
-      {
-        "source": "Staten Island Advance / SILive.com",
         "date": "February 2012",
         "headline": "Members of Staten Island Society of Model Railroaders have long and rich history",
         "url": "https://www.silive.com/westshore/2012/02/members_of_staten_island_socie.html",
-        "excerpt": "“When you build something, you learn so much. It’s not just what you’re building, it’s all that goes with it. A diorama has scale, proportion, placement.”",
+        "excerpt": "\u201cWhen you build something, you learn so much. It\u2019s not just what you\u2019re building, it\u2019s all that goes with it. A diorama has scale, proportion, placement.\u201d",
         "tag": "Feature Story"
       },
       {
@@ -118,8 +105,8 @@
         "tag": "Holiday Show"
       }
     ],
-    "featuredQuote": "“Any hobby should be relaxing. It takes a lot of thought to make the modules look simple and make it look realistic. When it’s finished, there’s a great deal of satisfaction.”",
-    "featuredQuoteCite": "— Ron DeMartini, Past Vice President"
+    "featuredQuote": "\u201cAny hobby should be relaxing. It takes a lot of thought to make the modules look simple and make it look realistic. When it\u2019s finished, there\u2019s a great deal of satisfaction.\u201d",
+    "featuredQuoteCite": "\u2014 Ron DeMartini, Past Vice President"
   },
   "gallery": {
     "title": "Miniature Worlds, Major Detail",
@@ -128,7 +115,7 @@
       {
         "src": "images/512015353_24231363276500372_8984119620590437035_n.jpg",
         "alt": "SISMR members at a spring community show with the club banner",
-        "caption": "Community Show — \"Join Us and Enjoy the World's Greatest Hobby\"",
+        "caption": "Community Show \u2014 \"Join Us and Enjoy the World's Greatest Hobby\"",
         "wide": true
       },
       {
@@ -164,16 +151,19 @@
     ]
   },
   "cta": {
-    "title": "We’re Looking for a New Home",
-    "text": "After more than a decade at Sea View Hospital, our club needs a permanent space where we can set up layouts, hold workshops, and welcome the community. If you know of a space on Staten Island, we’d love to hear from you."
+    "title": "Join Our Community",
+    "text": "We\u2019re always looking for new members who share our passion for model railroading. Whether you\u2019re a seasoned modeler or just starting out, come visit us and see what we\u2019re all about."
   },
   "join": {
     "title": "All Aboard!",
-    "subtitle": "Whether you’ve been collecting trains since childhood or you’re just discovering the hobby, we welcome you."
+    "subtitle": "Whether you've been collecting trains since childhood or you're just discovering the hobby, we welcome you."
   },
   "contact": {
-    "email": "sismrinc@gmail.com",
-    "phone": "(718) 317-3386",
+    "officers": [
+      { "name": "Mason Logie", "title": "President", "phone": "347-628-6017", "email": "mlogierjr@aol.com" },
+      { "name": "Michael Pillarella", "title": "Vice President", "phone": "718-916-8845", "email": "hotrain57@aol.com" },
+      { "name": "Bill Losko", "title": "Treasurer", "phone": "917-362-3686", "email": "mrbill9236@aol.com" }
+    ],
     "facebook": "https://www.facebook.com/sitrains",
     "facebookLabel": "facebook.com/sitrains"
   }

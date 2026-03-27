@@ -92,7 +92,7 @@
         message;
 
       var mailtoLink =
-        'mailto:sismrinc@gmail.com' +
+        'mailto:mlogierjr@aol.com' +
         '?subject=' + encodeURIComponent('Website Inquiry: ' + subjectText) +
         '&body=' + encodeURIComponent(mailtoBody);
 
@@ -242,10 +242,19 @@
       setText('#join .section-subtitle', c.join.subtitle);
 
       // Contact
-      var emailLink = document.querySelector('.contact-item a[href^="mailto:"]');
-      if (emailLink) { emailLink.href = 'mailto:' + c.contact.email; emailLink.textContent = c.contact.email; }
-      var phoneLink = document.querySelector('.contact-item a[href^="tel:"]');
-      if (phoneLink) { phoneLink.href = 'tel:' + c.contact.phone.replace(/[^+\d]/g, ''); phoneLink.textContent = c.contact.phone; }
+      if (c.contact.officers) {
+        var contactItems = document.querySelectorAll('.contact-info .contact-item');
+        c.contact.officers.forEach(function (officer, i) {
+          if (contactItems[i]) {
+            var h4 = contactItems[i].querySelector('h4');
+            if (h4) h4.textContent = officer.name + ', ' + officer.title;
+            var phoneEl = contactItems[i].querySelector('a[href^="tel:"]');
+            if (phoneEl) { phoneEl.href = 'tel:+1' + officer.phone.replace(/[^0-9]/g, ''); phoneEl.textContent = officer.phone; }
+            var emailEl = contactItems[i].querySelector('a[href^="mailto:"]');
+            if (emailEl) { emailEl.href = 'mailto:' + officer.email; emailEl.textContent = officer.email; }
+          }
+        });
+      }
       var fbLink = document.querySelector('.contact-item a[target="_blank"]');
       if (fbLink) { fbLink.href = c.contact.facebook; fbLink.textContent = c.contact.facebookLabel; }
     })
